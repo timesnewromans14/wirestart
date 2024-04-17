@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_back"
+    tools:context=".KnowledgeActivity">
+
+    <Button
+        android:id="@+id/udpButton"
+        android:layout_width="308dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/primary_window"
+        android:fontFamily="sans-serif-medium"
+        android:text="UDP"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tcpButton" />
+
+    <Button
+        android:id="@+id/tcpButton"
+        android:layout_width="308dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/primary_window"
+        android:fontFamily="sans-serif-medium"
+        android:text="TCP"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/stpButton"
+        android:layout_width="308dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/primary_window"
+        android:fontFamily="sans-serif-medium"
+        android:text="STP"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udpButton" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="База знаний"
+        android:textAlignment="center"
+        android:textColor="@color/h1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Wirestart" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:colorPrimaryDark">@color/primary_header</item>
+
+    </style>
+
+    <style name="EditTextBetter" parent="Widget.AppCompat.EditText">
+
+        <item name="android:background">@null</item>
+        <item name="android:radius">20dp</item>
+    </style>
+
+    <style name="Theme.Wirestart" parent="Base.Theme.Wirestart" />
+</resources>

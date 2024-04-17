@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_header">#03045e</color>
+    <color name="primary_back">#023e8a</color>
+    <color name="primary_window">#0077b6</color>
+    <color name="h1">#caf0f8</color>
+    <color name="h2">#ade8f4</color>
+    <color name="h3">#90e0ef</color>
+    <color name="h4">#48cae4</color>
+    <color name="h5">#00b4d8</color>
+    <color name="h6">#48cae4</color>
+</resources>

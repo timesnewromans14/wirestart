@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_back"
+    tools:context=".CalculateActivity">
+
+    <EditText
+        android:id="@+id/binaryIPEditText"
+        android:layout_width="369dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="100dp"
+        android:autofillHints=""
+        android:fontFamily="sans-serif-medium"
+        android:hint="Введите двоичный IP-адрес"
+        android:inputType="textNoSuggestions"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColorHint="@color/h2"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="308dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/primary_window"
+        android:fontFamily="sans-serif-medium"
+        android:text="Преобразовать"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/binaryIPEditText" />
+
+    <TextView
+        android:id="@+id/standardIPTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Стандартный IP-адрес:"
+        android:textColor="@color/h3"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/convertButton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Преобразование IP"
+        android:textAlignment="center"
+        android:textColor="@color/h1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/binaryIPEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
